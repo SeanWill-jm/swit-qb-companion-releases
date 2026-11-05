@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.49",
+  "version": "2.0.0-beta.50",
   "channel": "beta",
   "date": "2026-11-05",
-  "notes": "Company file box fits its column; the Server Manager now says when the Updater can’t be set up; a waiting update says when the Updater isn’t running.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.49/SWITQBCompanion_WindowsApp_2.0.0-beta.49.zip",
-  "sha256": "88194a1625fa8c06b697c28bcf8323823dc3949896381d3f7c3a65197deb4651",
-  "size": 1382079,
-  "sig": "iLR3SRn5IrFnaqO59OjaNOVMCwXFlBLf96g2ip-S-6a-Uqcirh4Rn2mR-WmhCQGZE7Gp9lA8_TGGEiNxsLdtAw"
+  "notes": "**Reconcile helper – Match together and Suggested groups**\r\n- New **Match together** tab: tick any number of bank lines and QuickBooks entries; a bar shows both totals and the difference. Match them as one group (1:1, 1:N, N:1, N:N).\r\n- A difference can be **recorded** (journal entry), **part-matched** (the rest expected on the next statement), or **accepted with a reason** (Finance Manager / Admin).\r\n- Groups are kept when you press Compare again; a QuickBooks entry changed since is flagged. **Unmatch** on every group.\r\n- New **Suggested** tab: sets that add up (e.g. bank charges + GCT against one entry) – Accept or Not this; never matched without you.\r\n\r\n**Backups from Settings** (Admin)\r\n- **Back up now…** to a folder you choose: database, attachments and settings, restorable with the Server Manager.\r\n- **Scheduled backups**, daily or weekly, keeping the number you set; a failed one is reported to the Admin and Finance Manager.\r\n\r\n**Online updates start at once**\r\n- Install update starts the Updater straight away; it also checks every minute (was every 5).",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/2.0.0-beta.50/SWITQBCompanion_WindowsApp_2.0.0-beta.50.zip",
+  "sha256": "dff35faafa2c935815d165d29c2cd4bc30527d033908a8f853982c87d5cf55e2",
+  "size": 1405287,
+  "sig": "c7KZwBSE5YogrOmOT5zwZK6CixugxH04jr9IRC9lPSyTQoEd7t1SzTfz7-XbdUOjZSVK3-tFhvd9yrUFD6z5Dg"
 }
