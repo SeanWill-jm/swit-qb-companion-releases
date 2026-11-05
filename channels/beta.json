@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.51",
+  "version": "2.0.0-beta.55",
   "channel": "beta",
   "date": "2026-11-05",
-  "notes": "Fix: after the trial ends with no licence, the administrator can only use the administration (licence, users, settings, backups, updates) – not the records, reports, search or files.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.51/SWITQBCompanion_WindowsApp_2.0.0-beta.51.zip",
-  "sha256": "aeeee0f403a70cc630a9dac3d24806872c68dc2d5d0df7ac73aad638f1cf67dd",
-  "size": 1406777,
-  "sig": "fEJy7_3V5M0UGbeF-s-1GlxXUFQISM2ECYzr80WTLm0Xh_UgcftNm067VeQYplhxLrvaG8_bWMm2jNm4Xo3dAg"
+  "notes": "SWIT QB Companion 2.0.0-beta.55\r\n\r\nInsurance EOB: Record as - for Health Care Organizations\r\n\r\nEach claim on the EOB can now be recorded as an AR payment, a Sales receipt, an Other deposit, or Leave out.\r\nThe Bulk Claim number is used as the reference number. Claims that are left out are listed in the lodgement memo.\r\nSales receipts can take a class for the whole receipt and for each line.\r\nThe EOB stays off until it is turned on in Settings (Insurance EOB).\r\n\r\nFunds collected: deposits made in QuickBooks\r\n\r\n“Also what was entered in QuickBooks” is now ticked by default when QuickBooks is connected.\r\nThe report now includes the direct lines of deposits made in QuickBooks (loans, refunds, transfers in), with the account each came from.\r\n\r\nPayments inside a deposit, and lodgements sent from this app, are not counted twice.\r\nNew From account filter.\r\n\r\nWhat’s new\r\n\r\nNew What’s new page in the user menu, showing every version’s changes and the update history.\r\nAfter an update, each user sees a short note of what changed, once. It can be turned off in Settings (Show what’s new).",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.55/SWITQBCompanion_WindowsApp_2.0.0-beta.55.zip",
+  "sha256": "d997a655ce9731870e0ccec07958fa8940d6578b9322de058010ecfeeb9a4064",
+  "size": 1497878,
+  "sig": "4ZGSG1DToTFK6FPXHnxOsjmsreIuiW4EEb0zjExvw1pJi8UD6HtoEEcXvc4nKBAQ6pWtJf-FFa_yXHlsZRY1Dg"
 }
