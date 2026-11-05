@@ -1,0 +1,57 @@
+# SWIT QB Companion: signs and publishes the update notice for a release.
+#  - A release published here (tag v2.0.0-beta.42, the zip attached, the notes in its description):
+#    beta.json always; stable.json too when the release is not marked "pre-release".
+#  - Run by hand (Actions -> Publish update -> Run workflow) to make an earlier release the stable one.
+name: Publish update
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to publish (e.g. 2.0.0-beta.42)'
+        required: true
+      channel:
+        description: 'stable or beta'
+        required: true
+        default: stable
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event_name }}" = "release" ]; then
+            VER="${{ github.event.release.tag_name }}"; VER="${VER#v}"
+            if [ "${{ github.event.release.prerelease }}" = "true" ]; then CHANNELS="beta"; else CHANNELS="beta stable"; fi
+          else
+            VER="${{ inputs.version }}"; CHANNELS="${{ inputs.channel }}"
+          fi
+          ZIP="SWITQBCompanion_WindowsApp_${VER}.zip"
+          gh release download "v${VER}" --pattern "$ZIP" --dir . --clobber
+          gh release view "v${VER}" --json body --jq .body > notes.md
+          echo "VER=$VER" >> "$GITHUB_ENV"; echo "ZIP=$ZIP" >> "$GITHUB_ENV"; echo "CHANNELS=$CHANNELS" >> "$GITHUB_ENV"
+      - name: Sign the notice
+        env:
+          UPDATE_KEY: ${{ secrets.UPDATE_KEY }}
+        run: |
+          set -euo pipefail
+          URL="https://github.com/${{ github.repository }}/releases/download/v${VER}/${ZIP}"
+          for CH in $CHANNELS; do node scripts/sign-notice.js "$ZIP" "$VER" "$CH" "$URL" notes.md > "channels/${CH}.json"; done
+          rm -f "$ZIP" notes.md
+      - name: Publish
+        run: |
+          set -euo pipefail
+          git config user.name "SWIT release bot"; git config user.email "releases@users.noreply.github.com"
+          git add channels/*.json
+          git commit -m "Update notice: ${VER} (${CHANNELS})" || echo "nothing changed"
+          git push
