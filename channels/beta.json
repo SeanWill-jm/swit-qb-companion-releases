@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.44",
+  "version": "2.0.0-beta.47",
   "channel": "beta",
   "date": "2026-11-05",
-  "notes": "Update channel is a drop-down (Settings → Updates): stable or beta, so it can’t be mistyped.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.44/SWITQBCompanion_WindowsApp_2.0.0-beta.44.zip",
-  "sha256": "9e941dd3b7cf4dcba139857f08412d5b35391930db02d5a0ea0f41c5b9802142",
-  "size": 1360285,
-  "sig": "iVVQJ00gbbJsI_8WOlQE2Da9qcxch4k1DVuTRlGFSIo-fUJLIuYmfc23wDd0ICQJ0HCiF7jS8KWZzYmqJBXNDg"
+  "notes": "Settings page easier to read (cards, section list, aligned columns, Reset to default); the page stays where you were after Check now / Install update; live progress while an update installs.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.47/SWITQBCompanion_WindowsApp_2.0.0-beta.47.zip",
+  "sha256": "bb4d5a3d63c754ecff4dfcb05c6d80426d496c47ddf15559f77bfca7fd059bab",
+  "size": 1365873,
+  "sig": "hl9fKDKPn-7BrDrAZsL4hLqIGRLhNPX3fSrLxApEItmWU8XtfP_hELd7GfDwmNIbaI1l5qu_TDjukr6XzB-LBQ"
 }

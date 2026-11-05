@@ -1,0 +1,12 @@
+{
+  "v": 1,
+  "product": "SWIT QB Companion",
+  "version": "2.0.0-beta.47",
+  "channel": "stable",
+  "date": "2026-11-05",
+  "notes": "Settings page easier to read (cards, section list, aligned columns, Reset to default); the page stays where you were after Check now / Install update; live progress while an update installs.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.47/SWITQBCompanion_WindowsApp_2.0.0-beta.47.zip",
+  "sha256": "bb4d5a3d63c754ecff4dfcb05c6d80426d496c47ddf15559f77bfca7fd059bab",
+  "size": 1365873,
+  "sig": "9gk0RQJgkYB11Th4CfJyWRPGLm5sdvJr1hMF0jG5GDkMAjMAmzkRcMvwgYwKUF1hNbFqKYmmGGi_GyRzCZquBQ"
+}
