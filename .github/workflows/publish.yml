@@ -32,16 +32,26 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
+          # the version is taken from the tag, ignoring anything around it (a "v", a stray bracket or space):
+          # "v2.0.0-beta.58)" -> 2.0.0-beta.58; the release is still found by its own tag
+          clean() { printf '%s' "$1" | grep -oE '[0-9]+\.[0-9]+\.[0-9]+(-[A-Za-z]+\.[0-9]+)?' | head -n1 || true; }
           if [ "${{ github.event_name }}" = "release" ]; then
-            VER="${{ github.event.release.tag_name }}"; VER="${VER#v}"
+            RAW="${{ github.event.release.tag_name }}"
+            VER="$(clean "$RAW")"; TAG="$RAW"
             if [ "${{ github.event.release.prerelease }}" = "true" ]; then CHANNELS="beta"; else CHANNELS="beta stable"; fi
           else
-            VER="${{ inputs.version }}"; CHANNELS="${{ inputs.channel }}"
+            VER="$(clean "${{ inputs.version }}")"; CHANNELS="${{ inputs.channel }}"
+            # the release's tag: v2.0.0-beta.N as agreed, 2.0.0-beta.N without the v, or any tag with that version in it
+            TAG="v${VER}"
+            if ! gh release view "$TAG" > /dev/null 2>&1; then TAG="${VER}"; fi
+            if ! gh release view "$TAG" > /dev/null 2>&1; then
+              TAG="$(gh api "repos/${{ github.repository }}/releases?per_page=50" --jq ".[].tag_name" | grep -F -- "$VER" | head -n1 || true)"
+            fi
           fi
+          if [ -z "$VER" ]; then echo "::error::No version (like 2.0.0-beta.58) was found in '${RAW:-${{ inputs.version }}}'."; exit 1; fi
+          if [ -z "$TAG" ]; then echo "::error::No release was found for ${VER}."; exit 1; fi
+          if [ "$TAG" != "v${VER}" ]; then echo "::warning::The release's tag is '${TAG}' (expected v${VER}): it was used as it is. Next time name the tag v${VER}."; fi
           ZIP="SWITQBCompanion_WindowsApp_${VER}.zip"
-          # the release's tag: v2.0.0-beta.N as agreed, or 2.0.0-beta.N if the v was left out
-          TAG="v${VER}"
-          if ! gh release view "$TAG" > /dev/null 2>&1; then TAG="${VER}"; fi
           echo "Release tag: ${TAG}"
           if ! gh release download "$TAG" --pattern "$ZIP" --dir . --clobber; then
             echo "::error::The release ${TAG} has no file named ${ZIP}. Attach the zip (name unchanged) with Edit release, then run this workflow by hand: Actions -> Publish update -> Run workflow (version ${VER}, channel beta or stable)."
@@ -54,7 +64,7 @@ jobs:
           UPDATE_KEY: ${{ secrets.UPDATE_KEY }}
         run: |
           set -euo pipefail
-          URL="https://github.com/${{ github.repository }}/releases/download/${TAG}/${ZIP}"
+          URL="https://github.com/${{ github.repository }}/releases/download/$(printf '%s' "$TAG" | jq -sRr @uri)/${ZIP}"
           for CH in $CHANNELS; do node scripts/sign-notice.js "$ZIP" "$VER" "$CH" "$URL" notes.md > "channels/${CH}.json"; done
           rm -f "$ZIP" notes.md
       - name: Publish
