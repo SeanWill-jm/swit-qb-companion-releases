@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.50",
+  "version": "2.0.0-beta.51",
   "channel": "beta",
   "date": "2026-11-05",
-  "notes": "**Reconcile helper – Match together and Suggested groups**\r\n- New **Match together** tab: tick any number of bank lines and QuickBooks entries; a bar shows both totals and the difference. Match them as one group (1:1, 1:N, N:1, N:N).\r\n- A difference can be **recorded** (journal entry), **part-matched** (the rest expected on the next statement), or **accepted with a reason** (Finance Manager / Admin).\r\n- Groups are kept when you press Compare again; a QuickBooks entry changed since is flagged. **Unmatch** on every group.\r\n- New **Suggested** tab: sets that add up (e.g. bank charges + GCT against one entry) – Accept or Not this; never matched without you.\r\n\r\n**Backups from Settings** (Admin)\r\n- **Back up now…** to a folder you choose: database, attachments and settings, restorable with the Server Manager.\r\n- **Scheduled backups**, daily or weekly, keeping the number you set; a failed one is reported to the Admin and Finance Manager.\r\n\r\n**Online updates start at once**\r\n- Install update starts the Updater straight away; it also checks every minute (was every 5).",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/2.0.0-beta.50/SWITQBCompanion_WindowsApp_2.0.0-beta.50.zip",
-  "sha256": "dff35faafa2c935815d165d29c2cd4bc30527d033908a8f853982c87d5cf55e2",
-  "size": 1405287,
-  "sig": "c7KZwBSE5YogrOmOT5zwZK6CixugxH04jr9IRC9lPSyTQoEd7t1SzTfz7-XbdUOjZSVK3-tFhvd9yrUFD6z5Dg"
+  "notes": "Fix: after the trial ends with no licence, the administrator can only use the administration (licence, users, settings, backups, updates) – not the records, reports, search or files.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.51/SWITQBCompanion_WindowsApp_2.0.0-beta.51.zip",
+  "sha256": "aeeee0f403a70cc630a9dac3d24806872c68dc2d5d0df7ac73aad638f1cf67dd",
+  "size": 1406777,
+  "sig": "fEJy7_3V5M0UGbeF-s-1GlxXUFQISM2ECYzr80WTLm0Xh_UgcftNm067VeQYplhxLrvaG8_bWMm2jNm4Xo3dAg"
 }
