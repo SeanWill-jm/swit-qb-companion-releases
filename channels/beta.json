@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.55",
+  "version": "2.0.0-beta.58",
   "channel": "beta",
   "date": "2026-11-05",
-  "notes": "SWIT QB Companion 2.0.0-beta.55\r\n\r\nInsurance EOB: Record as - for Health Care Organizations\r\n\r\nEach claim on the EOB can now be recorded as an AR payment, a Sales receipt, an Other deposit, or Leave out.\r\nThe Bulk Claim number is used as the reference number. Claims that are left out are listed in the lodgement memo.\r\nSales receipts can take a class for the whole receipt and for each line.\r\nThe EOB stays off until it is turned on in Settings (Insurance EOB).\r\n\r\nFunds collected: deposits made in QuickBooks\r\n\r\n“Also what was entered in QuickBooks” is now ticked by default when QuickBooks is connected.\r\nThe report now includes the direct lines of deposits made in QuickBooks (loans, refunds, transfers in), with the account each came from.\r\n\r\nPayments inside a deposit, and lodgements sent from this app, are not counted twice.\r\nNew From account filter.\r\n\r\nWhat’s new\r\n\r\nNew What’s new page in the user menu, showing every version’s changes and the update history.\r\nAfter an update, each user sees a short note of what changed, once. It can be turned off in Settings (Show what’s new).",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.55/SWITQBCompanion_WindowsApp_2.0.0-beta.55.zip",
-  "sha256": "d997a655ce9731870e0ccec07958fa8940d6578b9322de058010ecfeeb9a4064",
-  "size": 1497878,
-  "sig": "4ZGSG1DToTFK6FPXHnxOsjmsreIuiW4EEb0zjExvw1pJi8UD6HtoEEcXvc4nKBAQ6pWtJf-FFa_yXHlsZRY1Dg"
+  "notes": "**SWIT QB Companion 2.0.0-beta.57**\r\n\r\nInsurance EOB\r\n\r\n- Look for the payments in: Undeposited Funds and/or your bank accounts, remembered for each insurer.\r\n\r\n- Cheque already recorded as one sum: finds the insurer’s single payment for the whole cheque, or for several claims together, and uses it instead of creating the payments again. Nothing is lodged twice; if the money is already in the bank, no lodgement is made.\r\n\r\n- Patients’ invoices, chosen each time: move the insurer’s credit to the patients (journal entries through a clearing account, then the credit is applied to their invoices in the Server’s QuickBooks), or leave the invoices alone.\r\n\r\n- Each EOB is kept with its claims, its lodgement and the QuickBooks steps (with Done in QuickBooks when sending is off).\r\n\r\nSales receipts\r\n\r\nClass (whole sale) at the top fills every line’s class; a line can still have its own. Shown on the receipt, the list (with a class filter) and the PDF; bank rules for sales can carry a class.\r\n-----------\r\n\r\n**SWIT QB Companion 2.0.0-beta.58**\r\n\r\nReconcile helper: NCB’s downloaded statement (OpTransactionHistory….xls) is read as it comes: the account number, currency and period, every transaction, and the cheque no. as the reference. Newest-first lines are put in order, and the opening and closing balances are worked out and checked from the running balance.\r\n\r\n- Old Excel (.xls) statements are read by the app itself: the server no longer needs Excel.\r\n\r\n- Spreadsheet headings with a currency (e.g. Debit (JMD)), or lower down the sheet, are found automatically.\r\n\r\nIncludes everything from 2.0.0-beta.56 and 2.0.0-beta.57.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.58/SWITQBCompanion_WindowsApp_2.0.0-beta.58.zip",
+  "sha256": "2e661883da2aac745cd1f7c332fe9fadafc754abcf0f4e1962d26b42f2d3528f",
+  "size": 1533881,
+  "sig": "AseuLcXHV7YAvPDXjrlxYowRPe6xQxTkFTEFTAQyxIvUrRseBIDKjZ6jkIpPUsnZIGqFvhRq7P411iihxjznAw"
 }
