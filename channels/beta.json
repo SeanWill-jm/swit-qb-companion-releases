@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.48",
+  "version": "2.0.0-beta.49",
   "channel": "beta",
   "date": "2026-11-05",
-  "notes": "Remove attachments from any record (with a reason; restorable by the Admin); PDFs read only when you press Read this PDF, text PDFs read on the server; Updates moved to the bottom of Settings.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.48/SWITQBCompanion_WindowsApp_2.0.0-beta.48.zip",
-  "sha256": "49da3724c4fcaecdf6afac4d31fb3370b3b083e41de3aed48db2a82f8f6c65cd",
-  "size": 1381308,
-  "sig": "24wUGZJx3N3emcRCDmPdz8yhDj_a2BlUh5aa9Hn32yGzktgRyuN1vklwvMKh-TQ9lXHIy1EpQBI3toOx78grCQ"
+  "notes": "Company file box fits its column; the Server Manager now says when the Updater can’t be set up; a waiting update says when the Updater isn’t running.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.49/SWITQBCompanion_WindowsApp_2.0.0-beta.49.zip",
+  "sha256": "88194a1625fa8c06b697c28bcf8323823dc3949896381d3f7c3a65197deb4651",
+  "size": 1382079,
+  "sig": "iLR3SRn5IrFnaqO59OjaNOVMCwXFlBLf96g2ip-S-6a-Uqcirh4Rn2mR-WmhCQGZE7Gp9lA8_TGGEiNxsLdtAw"
 }
