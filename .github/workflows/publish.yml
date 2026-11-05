@@ -39,18 +39,22 @@ jobs:
             VER="${{ inputs.version }}"; CHANNELS="${{ inputs.channel }}"
           fi
           ZIP="SWITQBCompanion_WindowsApp_${VER}.zip"
-          if ! gh release download "v${VER}" --pattern "$ZIP" --dir . --clobber; then
-            echo "::error::The release v${VER} has no file named ${ZIP}. Attach the zip (name unchanged) with Edit release, then run this workflow by hand: Actions -> Publish update -> Run workflow (version ${VER}, channel beta or stable)."
+          # the release's tag: v2.0.0-beta.N as agreed, or 2.0.0-beta.N if the v was left out
+          TAG="v${VER}"
+          if ! gh release view "$TAG" > /dev/null 2>&1; then TAG="${VER}"; fi
+          echo "Release tag: ${TAG}"
+          if ! gh release download "$TAG" --pattern "$ZIP" --dir . --clobber; then
+            echo "::error::The release ${TAG} has no file named ${ZIP}. Attach the zip (name unchanged) with Edit release, then run this workflow by hand: Actions -> Publish update -> Run workflow (version ${VER}, channel beta or stable)."
             exit 1
           fi
-          gh release view "v${VER}" --json body --jq .body > notes.md
-          echo "VER=$VER" >> "$GITHUB_ENV"; echo "ZIP=$ZIP" >> "$GITHUB_ENV"; echo "CHANNELS=$CHANNELS" >> "$GITHUB_ENV"
+          gh release view "$TAG" --json body --jq .body > notes.md
+          echo "VER=$VER" >> "$GITHUB_ENV"; echo "TAG=$TAG" >> "$GITHUB_ENV"; echo "ZIP=$ZIP" >> "$GITHUB_ENV"; echo "CHANNELS=$CHANNELS" >> "$GITHUB_ENV"
       - name: Sign the notice
         env:
           UPDATE_KEY: ${{ secrets.UPDATE_KEY }}
         run: |
           set -euo pipefail
-          URL="https://github.com/${{ github.repository }}/releases/download/v${VER}/${ZIP}"
+          URL="https://github.com/${{ github.repository }}/releases/download/${TAG}/${ZIP}"
           for CH in $CHANNELS; do node scripts/sign-notice.js "$ZIP" "$VER" "$CH" "$URL" notes.md > "channels/${CH}.json"; done
           rm -f "$ZIP" notes.md
       - name: Publish
