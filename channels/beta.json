@@ -1,0 +1,12 @@
+{
+  "v": 1,
+  "product": "SWIT QB Companion",
+  "version": "2.0.0-beta.43",
+  "channel": "beta",
+  "date": "2026-11-05",
+  "notes": "SWIT’s update key is built in. From this version, Settings → Updates can check for and install online updates. This version must be installed from the zip; every later version can come online.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.43/SWITQBCompanion_WindowsApp_2.0.0-beta.43.zip",
+  "sha256": "dc66f174f54a24a89425d4b8bedf366394ee4e0840e57dd8637af623602a5f34",
+  "size": 1360037,
+  "sig": "pBNF-v4ol3ijWnqdXFTe-6wJDibUct3Uky0AjZXQXGmF2ltqqguvcxkUhJc4Xs62xYC9JNIwrDPxnpo5GU1RDA"
+}
