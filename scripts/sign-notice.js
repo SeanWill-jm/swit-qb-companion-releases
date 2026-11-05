@@ -7,7 +7,8 @@ const fs = require('fs');
 const crypto = require('crypto');
 const [zip, version, channel, url, notesFile] = process.argv.slice(2);
 // The public half built into the app (src/update-key.js): the signature is checked with it before anything is published.
-const APP_PUBLIC_KEY = '-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAiWDL0fSK21XiyntUK6f6ZayevoZJVVD8CyitFoZEb+U=\n-----END PUBLIC KEY-----\n';
+// (UPDATE_PUBLIC_KEY replaces it only for the app's own tests.)
+const APP_PUBLIC_KEY = process.env.UPDATE_PUBLIC_KEY || '-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAiWDL0fSK21XiyntUK6f6ZayevoZJVVD8CyitFoZEb+U=\n-----END PUBLIC KEY-----\n';
 const fail = (m) => {
   console.error('\n' + m + '\n');
   process.exit(1);
