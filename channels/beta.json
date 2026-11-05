@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.47",
+  "version": "2.0.0-beta.48",
   "channel": "beta",
   "date": "2026-11-05",
-  "notes": "Settings page easier to read (cards, section list, aligned columns, Reset to default); the page stays where you were after Check now / Install update; live progress while an update installs.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.47/SWITQBCompanion_WindowsApp_2.0.0-beta.47.zip",
-  "sha256": "bb4d5a3d63c754ecff4dfcb05c6d80426d496c47ddf15559f77bfca7fd059bab",
-  "size": 1365873,
-  "sig": "hl9fKDKPn-7BrDrAZsL4hLqIGRLhNPX3fSrLxApEItmWU8XtfP_hELd7GfDwmNIbaI1l5qu_TDjukr6XzB-LBQ"
+  "notes": "Remove attachments from any record (with a reason; restorable by the Admin); PDFs read only when you press Read this PDF, text PDFs read on the server; Updates moved to the bottom of Settings.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.48/SWITQBCompanion_WindowsApp_2.0.0-beta.48.zip",
+  "sha256": "49da3724c4fcaecdf6afac4d31fb3370b3b083e41de3aed48db2a82f8f6c65cd",
+  "size": 1381308,
+  "sig": "24wUGZJx3N3emcRCDmPdz8yhDj_a2BlUh5aa9Hn32yGzktgRyuN1vklwvMKh-TQ9lXHIy1EpQBI3toOx78grCQ"
 }
