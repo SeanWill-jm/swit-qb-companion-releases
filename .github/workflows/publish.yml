@@ -22,6 +22,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # a release run would check out its tag (no branch to push to)
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -54,4 +56,5 @@ jobs:
           git config user.name "SWIT release bot"; git config user.email "releases@users.noreply.github.com"
           git add channels/*.json
           git commit -m "Update notice: ${VER} (${CHANNELS})" || echo "nothing changed"
-          git push
+          git pull --rebase origin main || true
+          git push origin HEAD:main
