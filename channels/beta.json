@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.76",
+  "version": "2.0.0-beta.78",
   "channel": "beta",
   "date": "2026-11-06",
-  "notes": "Match together now takes up to 500 bank lines and 500 QuickBooks entries in one group (was 50).",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.76/SWITQBCompanion_WindowsApp_2.0.0-beta.76.zip",
-  "sha256": "836a70f96f1067c6178234a3f18954d190c709e6699771c06b60498dcb781ae2",
-  "size": 1616358,
-  "sig": "rbLfYro0bcKZz_TbraNxQ1oE8Q3Qo99z4QX1-JupLZ9OlqcwSNtmfn9iZZPj9PXYRZZxHUCAYQpW8ZJOf4dYCg"
+  "notes": "2.0.0-beta.77\r\nRemove an old comparison from the Reconcile helper’s list (with a reason); the statement and what was matched on it stay.\r\n\r\n\r\n2.0.0-beta.78\r\nMatch together pre-ticks in QuickBooks: when the bank lines and QuickBooks entries agree, the QuickBooks entries are marked * so they open ticked in QuickBooks’ Reconcile window.\r\nSearch both sides on Match together by name, reference, description or amount; both sides now show their amounts.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/2.0.0-beta.78/SWITQBCompanion_WindowsApp_2.0.0-beta.78.zip",
+  "sha256": "da2aa475d9826c65bb01057d1af4640ba479c357eaeb7ddf0027cbbc45cbdb8e",
+  "size": 1619236,
+  "sig": "lQQ9jIDgMrPy8ZtrNR9agEbMBPH--TaPSwasmmer9b8lfhJR3eLbG8Tnx5BfSL2IevSoyJs7jtwVOMrln-RPAQ"
 }
