@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.62",
+  "version": "2.0.0-beta.63",
   "channel": "beta",
   "date": "2026-11-06",
-  "notes": "SWIT QB Companion 2.0.0-beta.62\r\n\r\nBank rules: Journal entry. A rule can record a line as a journal entry (bank charges, GCT, interest), with the account it posts to and an optional class; the journal entry opens filled in.\r\nBank rules: Insurance EOB. A rule can open the Insurance EOB for money in from an insurer.\r\nAlso in this version: a rule applies as soon as it’s made (Record this line now), and a direct payment rule names its GL account.\r\n\r\nIncludes everything from 2.0.0-beta.56 to 61.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.62/SWITQBCompanion_WindowsApp_2.0.0-beta.62.zip",
-  "sha256": "108521d4b4e97c903dd4a74d9c380163373be496089400bf80030d45fbbfb6a0",
-  "size": 1543111,
-  "sig": "xE-mjKvG3ez37Ofn3VzZnvJIkziZBp7vmbHnxYTBQqgYMPhgUIuWenBEBGWG2hhhRu3ywogtXoEWyT09upJXDQ"
+  "notes": "SWIT QB Companion 2.0.0-beta.63\r\n\r\nReconcile helper: a line’s rule can be changed (and run again at once), swapped for another rule for that line only, turned off for the line, or set back to automatic; Make a new rule works on any line.\r\nJournal entries from a bank line carry the bank’s reference in the memo (e.g. Funds Transfer Fee S92231369).\r\nAlso in this version: bank rules can record as a Journal entry or Insurance EOB, apply as soon as they’re made, and name a direct payment’s GL account.\r\n\r\nIncludes everything from 2.0.0-beta.56 to 62.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.63/SWITQBCompanion_WindowsApp_2.0.0-beta.63.zip",
+  "sha256": "b86735e93c5a797813ae756a3a11984a95bb3e0dbde07a063bd5732ce1a1ae91",
+  "size": 1545367,
+  "sig": "raZcB2wfm1q4TWFAqvVHjQuBLUzkGzIA0PYo6H4XkbLZAfL47DLOCxAazQgR1IZjWb1JBDThUis3u-MkQE5fBA"
 }
