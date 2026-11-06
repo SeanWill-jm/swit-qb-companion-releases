@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.66",
+  "version": "2.0.0-beta.67",
   "channel": "beta",
   "date": "2026-11-06",
-  "notes": "QBO files for QuickBooks Bank Feeds\r\n\r\nNew Bank Feeds file (.QBO) on a Reconcile helper comparison: the statement as a QuickBooks Web Connect file (File → Utilities → Import → Web Connect Files).\r\nEvery line on the statement by default (QuickBooks skips lines it already has), or only lines not yet recorded here, with a From / To date range.\r\nPayee and description kept apart: the payee comes from the matched QuickBooks transaction, the record made here, the bank rule, or is read from NCB’s description. You can correct it before downloading. The full description goes in the memo.\r\nCheque numbers go in the Check No., and other bank references go in the reference number field.\r\nFixed line IDs (no duplicates on a second import) and the closing balance in the file.\r\nNew settings (Bank reconciliation): bank ID, currency code and account type.\r\n\r\nIncludes everything from 2.0.0-beta.65.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.66/SWITQBCompanion_WindowsApp_2.0.0-beta.66.zip",
-  "sha256": "95b3d48289acf2e98f0ea485c9c385e5b8e19d7f68f49d18f3cfa2432e67b5e7",
-  "size": 1561018,
-  "sig": "JpGvq6lQ-Urn_pkdScXxUlcNRKoYQC7dDyOSViDvbw66qNEhRHaYKjZeDtpZaS2VqmwFmmjctb7upWm5RSkKAg"
+  "notes": "Pre-tick for QuickBooks’ Reconcile window\r\n\r\nFix: matched items are now pre-ticked, not cleared. The Reconcile helper marks them * (pending) in QuickBooks, as Bank Feeds does, so they open already ticked in QuickBooks’ Reconcile window and QuickBooks clears them when you press Reconcile Now. Before, they were set to cleared (✓), which looked as if they had already been reconciled.\r\nOne by one or all at once: on the Pre-ticks tab (was Cleared ticks), tick the items and press Pre-tick the ticked ones, or Pre-tick all. Undo works on one item or all of them.\r\nItems already marked * in QuickBooks are not offered again.\r\n\r\nIncludes everything from 2.0.0-beta.66.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.67/SWITQBCompanion_WindowsApp_2.0.0-beta.67.zip",
+  "sha256": "f7341ea1077de1aa840f850a9eff4409d3e101683bed25cdb243635034065ddf",
+  "size": 1562569,
+  "sig": "6hmhLJ1XXNW187Naj4enNXzDVthihjptvy4KWy9ENTfmJ-rOLrGwZjAUw_aKpJfvescN_tneXFVB6IqKY4jgAw"
 }
