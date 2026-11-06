@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.61",
+  "version": "2.0.0-beta.62",
   "channel": "beta",
-  "date": "2026-11-05",
-  "notes": "**SWIT QB Companion 2.0.0-beta.59**\r\n\r\nReconcile helper: MT940 / MT950 statements (the banks’ standard, offered by NCB, Scotiabank and others): the account, opening and closing balances, and every line with its posting date, the bank’s reference and the full remarks. Each part of the statement is checked, and opening + lines must equal the closing.\r\nThe same month imported as MT940 and as NCB’s .xls is not imported twice.\r\n\r\nIncludes everything from 2.0.0-beta.56, 57 and 58: the EOB layout fix; EOB one-sum payments and moving the credit to patients; the sales receipt class; and NCB’s .xls download read without Excel.\r\n\r\n**SWIT QB Companion 2.0.0-beta.61**\r\n\r\nBank rules: GL account. A rule for a direct payment names the GL account it goes to; Record as → Direct payment opens with it on the line (an analytic plan still splits it instead).\r\nA rule applies as soon as it is made. After Make a rule…, the app lists the lines on the statement the rule catches and offers Record this line now, filled in from the rule.\r\nThe bank rule window is laid out more clearly.\r\n\r\nIncludes everything from 2.0.0-beta.56 to 60: the EOB layout fix, EOB one-sum payments and moving the credit to patients, the sales receipt class, NCB’s .xls download, and MT940 / MT950 statements.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.61/SWITQBCompanion_WindowsApp_2.0.0-beta.61.zip",
-  "sha256": "7cc1402a512c0e8bf09ed4e4c543a88a550810718fd12d44fb3cc446bc4a28bd",
-  "size": 1541131,
-  "sig": "T7xBNERsfNB7XlnxD2zL1RNplw1_9E3nqxI7KyjIjkTUQoCCPX2-FggzFOULSMuoLucYsRKe8FM-IkT0MQGrBw"
+  "date": "2026-11-06",
+  "notes": "SWIT QB Companion 2.0.0-beta.62\r\n\r\nBank rules: Journal entry. A rule can record a line as a journal entry (bank charges, GCT, interest), with the account it posts to and an optional class; the journal entry opens filled in.\r\nBank rules: Insurance EOB. A rule can open the Insurance EOB for money in from an insurer.\r\nAlso in this version: a rule applies as soon as it’s made (Record this line now), and a direct payment rule names its GL account.\r\n\r\nIncludes everything from 2.0.0-beta.56 to 61.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.62/SWITQBCompanion_WindowsApp_2.0.0-beta.62.zip",
+  "sha256": "108521d4b4e97c903dd4a74d9c380163373be496089400bf80030d45fbbfb6a0",
+  "size": 1543111,
+  "sig": "xE-mjKvG3ez37Ofn3VzZnvJIkziZBp7vmbHnxYTBQqgYMPhgUIuWenBEBGWG2hhhRu3ywogtXoEWyT09upJXDQ"
 }
