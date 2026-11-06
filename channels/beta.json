@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.75",
+  "version": "2.0.0-beta.76",
   "channel": "beta",
   "date": "2026-11-06",
-  "notes": "Fix: identical lines on one statement are all kept. Two GCT ON RTGS FEE 55.70 on the same day were imported as one; upload the statement again to bring in a line that was missed.\r\n\r\nThe statement as it is, and ticks you don’t lose\r\n\r\nEvery line on a statement is kept, including the same line twice on one day (two GCT ON RTGS FEE 55.70) and lines a card statement shares with an earlier one.\r\nUploading the same statement again adds any line it was missing; what was matched on it stays.\r\nTicks on Match together are saved with the statement and seen by every user; they survive a refresh, Compare again or an update.\r\nMatch together filters: Ticked only and a From / To date range, without losing ticks or totals.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/2.0.0-beta.75/SWITQBCompanion_WindowsApp_2.0.0-beta.75.zip",
-  "sha256": "c467177eb762711347f9e94276e8886d53e943ce8c41ad164c7c72871aae6009",
-  "size": 1616043,
-  "sig": "sy-HaGsZ9AdFGK91oJgFHNAyXPuI8PCtitbvtzykCsM55KtLYMdwjv_e9AVR1dpJ7ODNIt-86U8d1p1ouYZ8CA"
+  "notes": "Match together now takes up to 500 bank lines and 500 QuickBooks entries in one group (was 50).",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.76/SWITQBCompanion_WindowsApp_2.0.0-beta.76.zip",
+  "sha256": "836a70f96f1067c6178234a3f18954d190c709e6699771c06b60498dcb781ae2",
+  "size": 1616358,
+  "sig": "rbLfYro0bcKZz_TbraNxQ1oE8Q3Qo99z4QX1-JupLZ9OlqcwSNtmfn9iZZPj9PXYRZZxHUCAYQpW8ZJOf4dYCg"
 }
