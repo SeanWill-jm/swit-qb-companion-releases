@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.65",
+  "version": "2.0.0-beta.66",
   "channel": "beta",
   "date": "2026-11-06",
-  "notes": "SWIT QB Companion 2.0.0-beta.65\r\n\r\nReconcile helper: a journal entry for each ticked line, recorded at once, each filled in from its own bank rule (lines that aren’t a bank charge or interest, or have no known account, are left for you).\r\nOne journal entry for the ticked lines uses each line’s own rule; the journal entry says which rules filled it in; the line’s hint shows the account its rule posts to.\r\nFixed: the Reconcile helper stays on the same page and place after an action.\r\n\r\nIncludes everything from 2.0.0-beta.56 to 64.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.65/SWITQBCompanion_WindowsApp_2.0.0-beta.65.zip",
-  "sha256": "63a4c0af94f21878707169773cdb54021835fa9f5db94660fdf53c175675bea7",
-  "size": 1549367,
-  "sig": "8SIJJGs2bqobA_rlcER84VZi3iAxXeDndD55T4J5IC5okaziJZ6jSKoVYEo7Mt5aUPJweXTk4NBA1938pNDeBA"
+  "notes": "QBO files for QuickBooks Bank Feeds\r\n\r\nNew Bank Feeds file (.QBO) on a Reconcile helper comparison: the statement as a QuickBooks Web Connect file (File → Utilities → Import → Web Connect Files).\r\nEvery line on the statement by default (QuickBooks skips lines it already has), or only lines not yet recorded here, with a From / To date range.\r\nPayee and description kept apart: the payee comes from the matched QuickBooks transaction, the record made here, the bank rule, or is read from NCB’s description. You can correct it before downloading. The full description goes in the memo.\r\nCheque numbers go in the Check No., and other bank references go in the reference number field.\r\nFixed line IDs (no duplicates on a second import) and the closing balance in the file.\r\nNew settings (Bank reconciliation): bank ID, currency code and account type.\r\n\r\nIncludes everything from 2.0.0-beta.65.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.66/SWITQBCompanion_WindowsApp_2.0.0-beta.66.zip",
+  "sha256": "95b3d48289acf2e98f0ea485c9c385e5b8e19d7f68f49d18f3cfa2432e67b5e7",
+  "size": 1561018,
+  "sig": "JpGvq6lQ-Urn_pkdScXxUlcNRKoYQC7dDyOSViDvbw66qNEhRHaYKjZeDtpZaS2VqmwFmmjctb7upWm5RSkKAg"
 }
