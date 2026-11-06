@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.67",
+  "version": "2.0.0-beta.68",
   "channel": "beta",
   "date": "2026-11-06",
-  "notes": "Pre-tick for QuickBooks’ Reconcile window\r\n\r\nFix: matched items are now pre-ticked, not cleared. The Reconcile helper marks them * (pending) in QuickBooks, as Bank Feeds does, so they open already ticked in QuickBooks’ Reconcile window and QuickBooks clears them when you press Reconcile Now. Before, they were set to cleared (✓), which looked as if they had already been reconciled.\r\nOne by one or all at once: on the Pre-ticks tab (was Cleared ticks), tick the items and press Pre-tick the ticked ones, or Pre-tick all. Undo works on one item or all of them.\r\nItems already marked * in QuickBooks are not offered again.\r\n\r\nIncludes everything from 2.0.0-beta.66.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.67/SWITQBCompanion_WindowsApp_2.0.0-beta.67.zip",
-  "sha256": "f7341ea1077de1aa840f850a9eff4409d3e101683bed25cdb243635034065ddf",
-  "size": 1562569,
-  "sig": "6hmhLJ1XXNW187Naj4enNXzDVthihjptvy4KWy9ENTfmJ-rOLrGwZjAUw_aKpJfvescN_tneXFVB6IqKY4jgAw"
+  "notes": "Report categories in the menu\r\n\r\nLists → Report categories: the Treasurer’s report categories have their own page in the Lists menu (add, change, order, make inactive).\r\nReports → Treasurer’s report setup is now in the menu too (the report’s bank accounts, title, items sold and the categories). It was reached only from the Treasurer’s report.\r\n\r\nIncludes everything from 2.0.0-beta.67.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.68/SWITQBCompanion_WindowsApp_2.0.0-beta.68.zip",
+  "sha256": "d9e8ee3127fa75a3b83dde69a7bec0d59ba97916a74433bcc40c41cf0178982d",
+  "size": 1563012,
+  "sig": "jF3SlwjqcafLINkapHxU_kDmeABHD3OsYqzuQJ0663JU86AFfkj4aevIPeadE0V32lQXvKVtRW9GwlVVFyLCCg"
 }
