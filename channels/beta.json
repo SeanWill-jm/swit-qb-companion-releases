@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.79",
+  "version": "2.0.0-beta.80",
   "channel": "beta",
   "date": "2026-11-07",
-  "notes": "Bug fixes re customer statements.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.79/SWITQBCompanion_WindowsApp_2.0.0-beta.79.zip",
-  "sha256": "40592e4c0a652fcbf89807c3b7f5dcd5e104f94baceecf5d2145978e05f71b86",
-  "size": 1619435,
-  "sig": "0euQuuBRddixQ383BQ9rxLZ5pVGmXK1EJr9G0U-yHijJ6xrJ1IZndhq663qhVdDnv8gNTmiIHEnREVCkSXwyAw"
+  "notes": "SWIT QB Companion 2.0.0-beta.80\r\n\r\nSearch finds menu items first. As you type in the search box (Ctrl+K), matching menu items show at the top straight away, with the section each one is in. Everyday words work too: “deposit” finds Record lodgement and “bank rec” finds Reconcile helper.\r\nFavourites bar. Click the star beside any menu item, or beside a menu item in Search, to pin it to the Favourites bar under the page title. Each person’s favourites are saved for them and follow them to any computer or phone.\r\nStatements is back in the Customer Payments menu (it had been hidden since 2.0.0-beta.37).",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.80/SWITQBCompanion_WindowsApp_2.0.0-beta.80.zip",
+  "sha256": "0d405b869834ca6038883f8cc4133238533ca0b43d13dd45197d7322e5ea91ad",
+  "size": 1626143,
+  "sig": "aVecXQ1gQP2v3I9yV4LMRcvQbCd6q1nCLcaAOsOIgAgQZ8KYsIbhleKT_O6bgudfbMkmNx-dzJj7MEQWawZoCw"
 }
