@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.85",
+  "version": "2.0.0-beta.86",
   "channel": "beta",
   "date": "2026-11-08",
-  "notes": "You can now future-date customer payments in 2.0.0-beta.85 (SWITQBCompanion_WindowsApp_2.0.0-beta.85.zip). All tests pass.\r\n\r\nHow far ahead: a customer payment can be dated up to 90 days ahead, for post-dated cheques or transfers set for a later day. The calendar now lets you pick dates past today, and changing a saved payment’s date works the same way.\r\nThe setting: it uses the same setting as payments out, Settings → Requisitions and approvals → Furthest payment date ahead (days) (MaxFuturePaymentDays). Changing it changes the limit for both. Setting it to 0 means no dates after today.\r\nPast the limit: the app refuses the date and shows the last date allowed.\r\nIn QuickBooks: the payment goes in with the date you entered.\r\nLodging: a post-dated payment can’t go into a lodgement dated earlier than the payment.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.85/SWITQBCompanion_WindowsApp_2.0.0-beta.85.zip",
-  "sha256": "59e9afe2728c812091ee11a7d62da0bff4ead25db0c493d7cef38242233838e2",
-  "size": 1633730,
-  "sig": "itSPimu3wOtN2u7ejTy3l76_l1aF21GNStk2vb-4FyLFpzC0gEafSOVH4xBtwfdY51ujoZ-3MYeY86ikQ1yzDQ"
+  "notes": "SWIT QB Companion 2.0.0-beta.86\r\n\r\nLodgements can be dated ahead, for example to lodge post-dated customer payments. The limit is the same “furthest payment date ahead” setting (90 days by default). A lodgement still can’t be dated before the payments in it.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.86/SWITQBCompanion_WindowsApp_2.0.0-beta.86.zip",
+  "sha256": "315fff186d0cf950ce8da3ca80086864925c668596d65ff59f498ddebcf29472",
+  "size": 1634312,
+  "sig": "Zv3OtG4eJ-CVeHu0vq00w6I6p5sLa3plL1llXHyZ1EQHEtOHvDBBRvrBSw-Bq05DSygV812YvyiEMh1FDG3ZCQ"
 }
