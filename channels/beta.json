@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.83",
+  "version": "2.0.0-beta.85",
   "channel": "beta",
   "date": "2026-11-08",
-  "notes": "SWIT QB Companion 2.0.0-beta.83\r\n\r\nFunds collected reads QuickBooks much faster. It asks only for the fields the report uses. What it read is kept for 10 minutes, so changing a filter or grouping, or exporting, doesn’t read QuickBooks again. Use Read QuickBooks again to refresh.\r\nSettings shows where the app is installed: the server’s computer name, the address users open, the data folder, and whether the QuickBooks helper is running.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.83/SWITQBCompanion_WindowsApp_2.0.0-beta.83.zip",
-  "sha256": "dedfc3b6193f02df9578e2f412f762073e4655b67d2eebb505c040945c2b7e9f",
-  "size": 1631622,
-  "sig": "9vqp7Rp-KLN9VzK96NREAinK4Yq_-FsKxyV4cEJgJLDefM--Yuq_zKWyK6dHfAXiX3zPtXUb42Rr-xXSpqzMDQ"
+  "notes": "You can now future-date customer payments in 2.0.0-beta.85 (SWITQBCompanion_WindowsApp_2.0.0-beta.85.zip). All tests pass.\r\n\r\nHow far ahead: a customer payment can be dated up to 90 days ahead, for post-dated cheques or transfers set for a later day. The calendar now lets you pick dates past today, and changing a saved payment’s date works the same way.\r\nThe setting: it uses the same setting as payments out, Settings → Requisitions and approvals → Furthest payment date ahead (days) (MaxFuturePaymentDays). Changing it changes the limit for both. Setting it to 0 means no dates after today.\r\nPast the limit: the app refuses the date and shows the last date allowed.\r\nIn QuickBooks: the payment goes in with the date you entered.\r\nLodging: a post-dated payment can’t go into a lodgement dated earlier than the payment.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.85/SWITQBCompanion_WindowsApp_2.0.0-beta.85.zip",
+  "sha256": "59e9afe2728c812091ee11a7d62da0bff4ead25db0c493d7cef38242233838e2",
+  "size": 1633730,
+  "sig": "itSPimu3wOtN2u7ejTy3l76_l1aF21GNStk2vb-4FyLFpzC0gEafSOVH4xBtwfdY51ujoZ-3MYeY86ikQ1yzDQ"
 }
