@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.80",
+  "version": "2.0.0-beta.81",
   "channel": "beta",
-  "date": "2026-11-07",
-  "notes": "SWIT QB Companion 2.0.0-beta.80\r\n\r\nSearch finds menu items first. As you type in the search box (Ctrl+K), matching menu items show at the top straight away, with the section each one is in. Everyday words work too: “deposit” finds Record lodgement and “bank rec” finds Reconcile helper.\r\nFavourites bar. Click the star beside any menu item, or beside a menu item in Search, to pin it to the Favourites bar under the page title. Each person’s favourites are saved for them and follow them to any computer or phone.\r\nStatements is back in the Customer Payments menu (it had been hidden since 2.0.0-beta.37).",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.80/SWITQBCompanion_WindowsApp_2.0.0-beta.80.zip",
-  "sha256": "0d405b869834ca6038883f8cc4133238533ca0b43d13dd45197d7322e5ea91ad",
-  "size": 1626143,
-  "sig": "aVecXQ1gQP2v3I9yV4LMRcvQbCd6q1nCLcaAOsOIgAgQZ8KYsIbhleKT_O6bgudfbMkmNx-dzJj7MEQWawZoCw"
+  "date": "2026-11-08",
+  "notes": "SWIT QB Companion 2.0.0-beta.81\r\n\r\nReconcile helper, Matched tab: each match is labelled Auto-matched, Manually matched or Multi-matched. A new QuickBooks recon column lets you pre-tick one match, the ticked ones, or all.\r\nThe Pre-ticks tab is now Pre-ticked: its count is what QuickBooks’ Reconcile window will open already ticked. Items pre-ticked in QuickBooks but not on this statement are flagged.\r\nFix: an item that was pre-ticked and undone can be pre-ticked again straight away.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.81/SWITQBCompanion_WindowsApp_2.0.0-beta.81.zip",
+  "sha256": "8999518a55f15bbe3f54a057f7885a56d790fdb39aaa4481622d4ddfa9ac35c5",
+  "size": 1628759,
+  "sig": "ZH5-l-sJMI1u0jiPTPy0cdvex5hXDk1b6dexnXXxnhkgWVgzBgtqGE1R9jVSzntQFL-fp8rJbCMEWc7y_oQABw"
 }
