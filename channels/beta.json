@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.86",
+  "version": "2.0.0-beta.90",
   "channel": "beta",
-  "date": "2026-11-08",
-  "notes": "SWIT QB Companion 2.0.0-beta.86\r\n\r\nLodgements can be dated ahead, for example to lodge post-dated customer payments. The limit is the same “furthest payment date ahead” setting (90 days by default). A lodgement still can’t be dated before the payments in it.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.86/SWITQBCompanion_WindowsApp_2.0.0-beta.86.zip",
-  "sha256": "315fff186d0cf950ce8da3ca80086864925c668596d65ff59f498ddebcf29472",
-  "size": 1634312,
-  "sig": "Zv3OtG4eJ-CVeHu0vq00w6I6p5sLa3plL1llXHyZ1EQHEtOHvDBBRvrBSw-Bq05DSygV812YvyiEMh1FDG3ZCQ"
+  "date": "2026-11-09",
+  "notes": "Reconcile helper\r\n\r\nMatched tab:\r\nfilters by date, by how matched (Auto, Manually, Multi), and by pre-tick status (sent to QuickBooks or not yet);\r\na search by name, receipt or cheque no., memo or amount;\r\nDate, Type and No. columns;\r\nwith a filter on, you can pre-tick just what’s showing.\r\nPre-tick all is much faster: pre-ticks go to QuickBooks 50 at a time instead of one by one.\r\nFix: general journal entries, and cheques or deposits whose bank side is one of their lines, can now be pre-ticked. QuickBooks had refused these with error 3170.\r\n\r\nDating ahead\r\n\r\nCustomer payments, lodgements, sales receipts and transfers between accounts can be dated ahead, up to the “furthest payment date ahead” setting (90 days by default). A lodgement still can’t be dated before the payments in it.\r\n\r\nVendors\r\n\r\nDefault account and class on a vendor: filled in automatically on new bills, card charges, direct payments and requisitions, for lines that don’t already have them. A vendor’s analytic plan comes first.\r\n\r\nServer\r\n\r\nserver.log now records when and how the server stopped, including stops from outside the app (Task Scheduler, Task Manager, a Windows restart), with the minute it was last seen running.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.90/SWITQBCompanion_WindowsApp_2.0.0-beta.90.zip",
+  "sha256": "14da5fdb28155e7eef326b7fb53ee7ceee1476bc74b0ccde72f6947b8d32068a",
+  "size": 1644690,
+  "sig": "hy_uRlf87K5tTPQn8scZ0k9bAxSCOa0gPhbHV1tLYub5zdhDH8-Pk9pYxxkQMqwwxZwz0_85Cna2Qi_PRmlFDg"
 }
