@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.92",
+  "version": "2.0.0-beta.93",
   "channel": "beta",
   "date": "2026-11-09",
-  "notes": "SWIT QB Companion 2.0.0-beta.92\r\n\r\nTrain the reader: after correcting what the reader filled in, teach it for next time. The vendor, due date, which figure is the amount, the account and class, the customer and a memo can each be set for one vendor, account or printed name, or for every document. A plain-words note goes to Claude with each matching document.\r\nThe app offers “Learn this for next time?” after a corrected save.\r\nRules are listed under Lists → What the reader learned.\r\nInvoice reader (from beta.91): the amount includes GCT, the due date is worked out from terms like “7 Day Credit”, and more vendors are recognised.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.92/SWITQBCompanion_WindowsApp_2.0.0-beta.92.zip",
-  "sha256": "d3a3caa3fce62ca42f5a62245ed4aebec591cddf96c6f3f8eb830e0f4dfa8641",
-  "size": 1660233,
-  "sig": "8lhS19ZiTpORgJcXo98O6bRMPQiMNhgRqIMhCj60WDNwa0ak1pbbGWLCTI0khbdGlvmcHLCjX1Eqaey5dS1BCA"
+  "notes": "SWIT QB Companion 2.0.0-beta.93\r\n\r\nVendor statements (Payables): upload a supplier’s statement and see what’s missing in QuickBooks, what’s there but not on the statement, what differs, and the balance difference. Then enter missing bills, credits and payments straight from the statement line, filled in for you.\r\nVendor credits: Enter bill now has a Credit option, sent to QuickBooks as a Vendor Credit.\r\nTrain the reader (beta.92): after correcting what the reader filled in, teach it how to handle that vendor’s documents next time. Rules are listed under Lists → What the reader learned.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.93/SWITQBCompanion_WindowsApp_2.0.0-beta.93.zip",
+  "sha256": "d7f1f0b1dae1dfe5ef1d33c03ec89a803cb5ab330474042eafb62e0ddf2eff89",
+  "size": 1680942,
+  "sig": "stpBf84CMlEtkHAggSALJ3VboqJNQg1ujDFEAcfl5QwPF-DzSgGS6Yf3wD8wcDuIMvPxWXWmYAOVu1VxDbfxAg"
 }
