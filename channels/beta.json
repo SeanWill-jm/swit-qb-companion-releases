@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.98",
+  "version": "2.0.0-beta.99",
   "channel": "beta",
   "date": "2026-11-09",
-  "notes": "SWIT QB Companion 2.0.0-beta.98\r\n\r\nAdd all as draft bills: on “On the statement, not in QuickBooks”, tick the invoices and credit notes (or Tick all) and press Add … as draft bills. Each becomes a bill, or a vendor credit for a credit note, with the statement’s date, reference and amount and the vendor’s terms. Each is split by the vendor’s analytic plan or its default account and class.\r\nDrafts first: they are saved as Waiting check on Payables → Bills, and nothing goes to QuickBooks until each is checked and pushed. The statement lines show Entered with a link to each draft. Payments are left for Post payment, lines already entered are skipped, and anything not added is listed with the reason.\r\nFixed: View the statement opens the statement in the viewer instead of only offering a download.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.98/SWITQBCompanion_WindowsApp_2.0.0-beta.98.zip",
-  "sha256": "bf039a5853df908bcf76f1c01b6c59036ce7cd718ee74104883341ee315ef85b",
-  "size": 1696208,
-  "sig": "1VEkOIv2xuGwyydnpRNMjy5bpeeRsP2HwzlPO7bXN7hO8gTLrfGjMkDymgTv2Zp_RBx_BMsQkqp4xSXFUxwyCw"
+  "notes": "SWIT QB Companion 2.0.0-beta.99\r\n\r\nMatch together shows every column again. The bank side has Date, Description, Reference and Amount. The QuickBooks side has Date, Type, No., Name, Amount, Cleared, Pre-ticked and Memo, each in its own column. Use Columns to hide the ones you don’t want; the choice is remembered.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.99/SWITQBCompanion_WindowsApp_2.0.0-beta.99.zip",
+  "sha256": "cb62f747c4a1fb542ab622bda5587c495e5ae7560350796bd19051c2455d3935",
+  "size": 1696799,
+  "sig": "8ahnMJRdGwRgkchnAHIQLOes_Y87Mwwqqbc1cuoAhZd8iZvUQrx9Hq4ad2rbtHCVBcQfAFmacN-uA0WVCehRCA"
 }
