@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.96",
+  "version": "2.0.0-beta.98",
   "channel": "beta",
   "date": "2026-11-09",
-  "notes": "SWIT QB Companion 2.0.0-beta.96\r\n\r\nFixed: lines older than about a year were dropped. A statement going back to 2024 lost its older invoices, and they became a “balance brought forward” that couldn’t be checked. Every line is now kept, however old (up to 10 years back).\r\nDates printed month first (09/20/2024) are read that way when the statement uses that order, so 06/11/2025 is 11 June, not 6 November. “Cust No” is recognised as the customer number, and when no closing balance is labelled, the last running balance is used.\r\nUpload the same statement again to pick up lines an earlier reading missed. They are added, the statement’s dates widen to cover the first line, the opening balance is read again, and the statement is compared with QuickBooks over the whole period.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.96/SWITQBCompanion_WindowsApp_2.0.0-beta.96.zip",
-  "sha256": "584f2ec8337648318330c2768eff1a0b03e750eb07dd0e22bebeff4d0f29195a",
-  "size": 1687643,
-  "sig": "FDaqZdZ9Y-vi36eGr1q4JQ4tWQm-DTlJolPcHRVFnI-pcM9795H60pLdeROnDZZrQQQBbULDZFeo9pyeH61oDg"
+  "notes": "SWIT QB Companion 2.0.0-beta.98\r\n\r\nAdd all as draft bills: on “On the statement, not in QuickBooks”, tick the invoices and credit notes (or Tick all) and press Add … as draft bills. Each becomes a bill, or a vendor credit for a credit note, with the statement’s date, reference and amount and the vendor’s terms. Each is split by the vendor’s analytic plan or its default account and class.\r\nDrafts first: they are saved as Waiting check on Payables → Bills, and nothing goes to QuickBooks until each is checked and pushed. The statement lines show Entered with a link to each draft. Payments are left for Post payment, lines already entered are skipped, and anything not added is listed with the reason.\r\nFixed: View the statement opens the statement in the viewer instead of only offering a download.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.98/SWITQBCompanion_WindowsApp_2.0.0-beta.98.zip",
+  "sha256": "bf039a5853df908bcf76f1c01b6c59036ce7cd718ee74104883341ee315ef85b",
+  "size": 1696208,
+  "sig": "1VEkOIv2xuGwyydnpRNMjy5bpeeRsP2HwzlPO7bXN7hO8gTLrfGjMkDymgTv2Zp_RBx_BMsQkqp4xSXFUxwyCw"
 }
