@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.100",
+  "version": "2.0.0-beta.102",
   "channel": "beta",
   "date": "2026-11-10",
-  "notes": "SWIT QB Companion 2.0.0-beta.100\r\n\r\nWhatsApp… on a sales receipt, as on a customer payment. The PDF is saved to Downloads and WhatsApp opens on the customer’s mobile number (or phone) with a thank-you message naming the receipt. Change the number or message if needed, attach the PDF and press send. For those who record sales receipts; not on a voided receipt.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.100/SWITQBCompanion_WindowsApp_2.0.0-beta.100.zip",
-  "sha256": "efd5f2804dd0faf4106de8d96d4a1bc099aafe5a99fc27f3fb4a440a7100e8d3",
-  "size": 1697601,
-  "sig": "S3_i42NsUqMZIiwkDZehKK4-4MObF2HRpcX05c9PZIvXbP11gcooMnYLahfpJfzioGhjNgYn5NYfFn0YN5I-Bw"
+  "notes": "SWIT QB Companion 2.0.0-beta.102\r\n\r\nReport category on Enter bill (bills, credits and item receipts), as on the other forms. It’s for the Treasurer’s report and isn’t sent to QuickBooks.\r\nClub payables by report category: while a bill is unpaid, it shows in the Treasurer’s report payables under its category, with a heading, its vendors and bills, and a subtotal. Bills without one come last under Other payables. This applies on screen, in Excel and in the PDF.\r\nWhere a bill’s category comes from: the one chosen in the report’s new Unpaid bills (payables) list, which also covers bills entered straight in QuickBooks; else the one on the bill; else the category whose default accounts include the bill’s expense account.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.102/SWITQBCompanion_WindowsApp_2.0.0-beta.102.zip",
+  "sha256": "4425624f63b63a59bdd490e171928db5ba1bd86c6656c1fc03aae110f884281d",
+  "size": 1703543,
+  "sig": "80Fgfx6YgYyl684tHIS95a7yx02CvH9bm2f5BVKa6lCqRbx9ISMcaS8wVHkbKwEx6fAwAcpz-4LwhyR1poHeCQ"
 }
