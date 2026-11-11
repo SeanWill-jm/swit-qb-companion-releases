@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.105",
+  "version": "2.0.0-beta.106",
   "channel": "beta",
   "date": "2026-11-11",
-  "notes": "SWIT QB Companion 2.0.0-beta.105\r\n\r\nCustomer Payments → Invoices lists every open invoice in QuickBooks as of the last sync, oldest due first. Each row shows how late the invoice is, the customer, the type, the P.O. / memo, and the amount and open balance, including any part covered by payments not yet in QuickBooks.\r\nFilters: search, how late, due between two dates and customer type, with the count and open total shown above the list.\r\nRecord payment on a row opens Record payment for that customer. Search finds the page as “invoices”, “unpaid” or “receivables”.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.105/SWITQBCompanion_WindowsApp_2.0.0-beta.105.zip",
-  "sha256": "fde27c9b91f7a2b0bf3edeb1675d36bc294f0dd09a7129ccc3bb420e637c2ed3",
-  "size": 1724125,
-  "sig": "uesLpfOzJThaoQGu8pJNzv_Njuhb9la7BpYMkb8QIKELo7U8SykNAYxoziatBY4bYDA41ZiFOCC0q8SY9A-wAA"
+  "notes": "SWIT QB Companion 2.0.0-beta.106\r\n\r\nApply the credit… on a customer payment with money left as credit, for example one paid before the invoice was made. It applies the credit to the customer’s open invoices, oldest first. A payment already in QuickBooks is changed there, keeping the invoices it already has, after checking QuickBooks still has the credit unused. Until QuickBooks has it, Take the credit off undoes it.\r\nTransactions on the customer’s page: every transaction of the customer and its jobs, read from QuickBooks, newest first. That covers invoices, payments, sales receipts, credit memos, journals and refunds, with the charge, payment and balance, plus anything not yet in QuickBooks. The period is your choice, and anything recorded in the app links to its page.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.106/SWITQBCompanion_WindowsApp_2.0.0-beta.106.zip",
+  "sha256": "0943f201f516f6d4f1890b9fc5b882b1bdc9f0ad2abb2d3514e3b5103f37bff8",
+  "size": 1732037,
+  "sig": "LKfXtcOE8Pxd1MiP3F0rT0ff7T9kdH9mfi8Ks-NEQZawlD8NZ3zhke6iSfvkoyQCLVHxaQrZNN3Juwl8vOrRDQ"
 }
