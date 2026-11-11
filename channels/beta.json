@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.106",
+  "version": "2.0.0-beta.107",
   "channel": "beta",
   "date": "2026-11-11",
-  "notes": "SWIT QB Companion 2.0.0-beta.106\r\n\r\nApply the credit… on a customer payment with money left as credit, for example one paid before the invoice was made. It applies the credit to the customer’s open invoices, oldest first. A payment already in QuickBooks is changed there, keeping the invoices it already has, after checking QuickBooks still has the credit unused. Until QuickBooks has it, Take the credit off undoes it.\r\nTransactions on the customer’s page: every transaction of the customer and its jobs, read from QuickBooks, newest first. That covers invoices, payments, sales receipts, credit memos, journals and refunds, with the charge, payment and balance, plus anything not yet in QuickBooks. The period is your choice, and anything recorded in the app links to its page.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.106/SWITQBCompanion_WindowsApp_2.0.0-beta.106.zip",
-  "sha256": "0943f201f516f6d4f1890b9fc5b882b1bdc9f0ad2abb2d3514e3b5103f37bff8",
-  "size": 1732037,
-  "sig": "LKfXtcOE8Pxd1MiP3F0rT0ff7T9kdH9mfi8Ks-NEQZawlD8NZ3zhke6iSfvkoyQCLVHxaQrZNN3Juwl8vOrRDQ"
+  "notes": "SWIT QB Companion 2.0.0-beta.107\r\n\r\nCustomer payments: what was done in QuickBooks shows here (backlog 84)\r\n\r\nWhat updates: for a customer payment already posted to QuickBooks and then applied or changed there (for example, its credit applied to a later invoice in Receive Payments), the app now shows:\r\nthe Applied to invoices lines;\r\nany credit memos used;\r\nLeft as credit, as QuickBooks has it.\r\nWhen it reads from QuickBooks:\r\nwhen you open the payment’s page (it checks in the background and the page refreshes if anything changed);\r\nwhen you click the new Read from QuickBooks button in the QuickBooks box;\r\nwith each sync, for payments from the last 90 days and any with credit left.\r\nCredit memos: a credit memo applied to an invoice in QuickBooks is added to that invoice’s line (payment plus credit), the same way Record payment shows it.\r\nChanged or deleted in QuickBooks: if QuickBooks has a different amount, or the payment was deleted there, the page says Check it in QuickBooks and why. In both cases the app keeps its own amount; a deleted payment also keeps its invoice lines.\r\nCredit applied in the app: credit applied here but not yet sent to QuickBooks is left alone until it gets there.\r\nLogging: each change goes in the audit log (“Applied to invoices … as in QuickBooks …”), and the sync log says how many payments were updated.\r\nDatabase: moves to version 53.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.107/SWITQBCompanion_WindowsApp_2.0.0-beta.107.zip",
+  "sha256": "287e8e14f179cae71103b33bc2b8105bc62e5f26a938599a5545721c00d8858f",
+  "size": 1735688,
+  "sig": "zmLPHU56xKbAsBUa8WVolKAhUe5gXgaK4DYi9eT59U5SwllLkyFVQLNWny9bezoRhPcKKMT2uCwaniMkgYPUCQ"
 }
