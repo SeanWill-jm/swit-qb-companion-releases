@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.108",
+  "version": "2.0.0-beta.112",
   "channel": "beta",
-  "date": "2026-11-11",
-  "notes": "SWIT QB Companion 2.0.0-beta.108\r\n\r\nThe top of the page stays on screen when you scroll:\r\nIt covers the link to the list and the breadcrumbs, the page title, the Favourites bar, and the round buttons at the top right (Sync, notifications, Back, Home, +).\r\nOn Settings, the search box stays just below it.\r\nOn a small screen, it doesn’t stay fixed if it would take up more than about 40% of the screen.\r\nInvoices open when you click them:\r\nThis works on the customer’s page, in Invoices, and in the customer’s Transactions.\r\nYou see the invoice as QuickBooks has it: the items, and the payments and credits on it. Any payment recorded in the app links to its page.\r\nIt also lists the customer payments recorded in the app for that invoice.\r\nTransactions open when you click them:\r\nA payment opens its page; you can click the row or the number.\r\nA transaction entered only in QuickBooks shows what the customer’s statement has on it.\r\nLinks inside a list row: a link or button in a row now only does its own action; it no longer opens the row as well.\r\nFix for Read from QuickBooks: payments that are still in QuickBooks are no longer marked as possibly deleted.\r\nWhat’s new: the beta.107 entry now has its own heading. It was missing, so beta.107’s notes appeared under beta.106.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.108/SWITQBCompanion_WindowsApp_2.0.0-beta.108.zip",
-  "sha256": "dad5a62ef0b60e1cf92ee2204b7daeea00d759c3befde3e04d7d7621ebec155b",
-  "size": 1740779,
-  "sig": "TWjD3GojD9IiYYYLVFHZpJ16GwnD_Hh4hmDpisoh0dhA2ExjN280D6V0uMtGN6T8Xph8N-euOpfw_j48jG0LAw"
+  "date": "2026-11-13",
+  "notes": "SWIT QB Companion 2.0.0-beta.112\r\n\r\nClear QuickBooks errors: when QuickBooks can’t be read, every page now shows “QuickBooks could not be reached:” with QuickBooks’ own message, instead of “Something went wrong on the server”.\r\nMessage box tip: if a QuickBooks message box is the cause, the page says to close it on the server where the QuickBooks helper runs, then try again.\r\nTreasurer’s report: it has a Try again button after a failure, and it tells you straight away when the QuickBooks helper isn’t running.\r\nError log: QuickBooks errors are still kept under Settings → Diagnostics.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.112/SWITQBCompanion_WindowsApp_2.0.0-beta.112.zip",
+  "sha256": "ee07b67a848e23e2714d275595f398e1dda620d0d332b520ac550e3383efc9a4",
+  "size": 1751282,
+  "sig": "EvoaBIzN7rkfN0GzxgHMb-2euzjfzKR2B29Fnm0vB_l-V25GJw9cx8IfXZ4n9grfu3c_i2TyIo6mx7m_Oy1YCA"
 }
