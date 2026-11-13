@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.112",
+  "version": "2.0.0-beta.113",
   "channel": "beta",
   "date": "2026-11-13",
-  "notes": "SWIT QB Companion 2.0.0-beta.112\r\n\r\nClear QuickBooks errors: when QuickBooks can’t be read, every page now shows “QuickBooks could not be reached:” with QuickBooks’ own message, instead of “Something went wrong on the server”.\r\nMessage box tip: if a QuickBooks message box is the cause, the page says to close it on the server where the QuickBooks helper runs, then try again.\r\nTreasurer’s report: it has a Try again button after a failure, and it tells you straight away when the QuickBooks helper isn’t running.\r\nError log: QuickBooks errors are still kept under Settings → Diagnostics.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.112/SWITQBCompanion_WindowsApp_2.0.0-beta.112.zip",
-  "sha256": "ee07b67a848e23e2714d275595f398e1dda620d0d332b520ac550e3383efc9a4",
-  "size": 1751282,
-  "sig": "EvoaBIzN7rkfN0GzxgHMb-2euzjfzKR2B29Fnm0vB_l-V25GJw9cx8IfXZ4n9grfu3c_i2TyIo6mx7m_Oy1YCA"
+  "notes": "SWIT QB Companion 2.0.0-beta.113\r\n\r\nFewer QuickBooks connections: all the bank accounts are now read together, in three QuickBooks connections in total (registers, deposits and sales receipts) however many accounts there are. Before, it was about three connections per account, and each one takes a few seconds while the helper connects and signs in to the company file.\r\nReady before you open it: after each sync from QuickBooks, this month and last month are read in the background, so the report opens straight away.\r\nThe report shows when it was read and has a Read again from QuickBooks button.\r\nIt’s prepared at most once an hour, and not for a month that’s already finalised.\r\nA prepared copy is used for up to 3 hours. If you open the report while it’s being prepared, it waits for that to finish.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.113/SWITQBCompanion_WindowsApp_2.0.0-beta.113.zip",
+  "sha256": "84812162053404d713ff7379be992fbfeecaefa4b4d12d4b0565c0fcdb9ea7d1",
+  "size": 1754153,
+  "sig": "AG-d1dGbZApzW5YMTclATpvC6PHrRao7vSUf6v4gp0Uuyt712LZUaGRRyl5rdyshlGW8HN50JsK4sdbYkGl3AA"
 }
