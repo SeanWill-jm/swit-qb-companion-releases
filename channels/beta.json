@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.116",
+  "version": "2.0.0-beta.117",
   "channel": "beta",
-  "date": "2026-11-13",
-  "notes": "SWIT QB Companion 2.0.0-beta.116\r\n\r\nFix for ScotiaConnect “Current Day Account Activity” PDFs:\r\nThe first line’s direction now comes from the debit and credit totals at the bottom of the page. A transfer out is no longer read as money in.\r\nThe bottom totals are read as totals and checked against the lines, instead of being added to the last line’s description.\r\nThe period now uses the dates of the transactions themselves, not the 1st of the month.\r\nA statement you already compared needs to be uploaded again to get the correcte",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.116/SWITQBCompanion_WindowsApp_2.0.0-beta.116.zip",
-  "sha256": "8e9d0519cc6ebf3955a8281fdb364ab14f6da259c7ac294c890a4ef7f2241899",
-  "size": 1759595,
-  "sig": "1Mb8_MPdx5MxTOuRPnwyj83-mDlstSztxtwPJRopjxw3t1Qh6-syOmyOT-w6DnwEA--2wK41Rl9g8iPYmYMwAA"
+  "date": "2026-11-14",
+  "notes": "SWIT QB Companion 2.0.0-beta.117\r\n\r\nCompare again now re-reads the statement as well, using the app’s current reader, so fixes to a bank’s layout apply to statements you’ve already compared.\r\nLines are corrected in place, so anything matched, linked (“Entered here”) or recorded from them stays.\r\nThe comparison’s dates and balances update too, unless you typed them in yourself.\r\nIt tells you how many lines were corrected. If the statement now reads as a different number of lines, it asks you to remove the comparison and upload the statement again.\r\nScotiaConnect “Current Day Account Activity”: the period is now that day only, not the whole month to date.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.117/SWITQBCompanion_WindowsApp_2.0.0-beta.117.zip",
+  "sha256": "a37147d298cfa2772f9172c42352e62b8a9fdf86ae90741ced3303f948dde901",
+  "size": 1761746,
+  "sig": "qFsFjWJvCnWPSpLbbxuotUNKWibtidEy4lHACHsTMHDd9HIy3TqGkNYQzoK64seYZ5fRb6_RahtY_8SH84GmDw"
 }
