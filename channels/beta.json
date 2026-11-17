@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.117",
+  "version": "2.0.0-beta.118",
   "channel": "beta",
-  "date": "2026-11-14",
-  "notes": "SWIT QB Companion 2.0.0-beta.117\r\n\r\nCompare again now re-reads the statement as well, using the app’s current reader, so fixes to a bank’s layout apply to statements you’ve already compared.\r\nLines are corrected in place, so anything matched, linked (“Entered here”) or recorded from them stays.\r\nThe comparison’s dates and balances update too, unless you typed them in yourself.\r\nIt tells you how many lines were corrected. If the statement now reads as a different number of lines, it asks you to remove the comparison and upload the statement again.\r\nScotiaConnect “Current Day Account Activity”: the period is now that day only, not the whole month to date.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.117/SWITQBCompanion_WindowsApp_2.0.0-beta.117.zip",
-  "sha256": "a37147d298cfa2772f9172c42352e62b8a9fdf86ae90741ced3303f948dde901",
-  "size": 1761746,
-  "sig": "qFsFjWJvCnWPSpLbbxuotUNKWibtidEy4lHACHsTMHDd9HIy3TqGkNYQzoK64seYZ5fRb6_RahtY_8SH84GmDw"
+  "date": "2026-11-17",
+  "notes": "SWIT QB Companion 2.0.0-beta.118\r\n\r\nNew page, Administration → WhatsApp (Admin only), with three ways to send a PDF:\r\nChat link (the default, as before): the PDF downloads, WhatsApp opens with the message, and you attach the PDF yourself.\r\nShare menu: the Windows or phone share menu passes WhatsApp the PDF and the message together; you pick the contact and press send. WhatsApp allows this.\r\nLinked WhatsApp number: a number linked to the app (like WhatsApp Web) sends the PDF and message straight to the customer’s number. Send receipts gets a WhatsApp the ticked button that sends them one by one and marks each as sent.\r\nSetting up the linked number:\r\nClick Install the WhatsApp link. It downloads the library into the data folder in a minute or two (the server needs internet access).\r\nEnter the number to link, then click Get the code.\r\nOn that phone, open WhatsApp → Settings → Linked devices → Link a device → Link with phone number instead, and type the 8-character code.\r\nUse Send test to check it works. Unlink this number is on the same page.\r\nSafeguards for the linked number:\r\nMessages go 4–7 seconds apart, at a person’s pace.\r\nThere’s a daily limit, set by the new WhatsAppDailyLimit setting (default 100).\r\nOnly Admin, Accounts, Finance Manager and Cashier can send, and only PDFs made by the app.\r\nEvery send is recorded in the audit log.\r\nNew settings: WhatsAppMode and WhatsAppDailyLimit.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.118/SWITQBCompanion_WindowsApp_2.0.0-beta.118.zip",
+  "sha256": "36761f5ad3fda021d5d19205a5222f9056d382560a45e8e6e9533ebddd6df9f5",
+  "size": 1778481,
+  "sig": "av5c0GG0gS1FLqC5KDkHgt9b5pC5VOZwH8w67HT8C02KtTtmoMi6Y3fYVp4qAq8MvInIFKvHNgRkVjrbMLieCg"
 }
