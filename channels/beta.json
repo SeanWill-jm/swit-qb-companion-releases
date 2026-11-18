@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.125",
+  "version": "2.0.0-beta.126",
   "channel": "beta",
   "date": "2026-11-18",
-  "notes": "SWIT QB Companion 2.0.0-beta.125\r\n\r\nFix – journal entries: with ClassRequired on, a journal entry asked for a class on every line, including the bank line. Now a class is only needed on income and expense lines, such as bank charges and interest. The bank line and other balance sheet lines (GCT, withholding tax, liabilities) can be left without one.\r\nBank rules: a Class for a direct payment. A rule that records a line as a Direct payment now has a Class box under its GL account, as journal entry and sales receipt rules already had. When you use Record as → Direct payment on a line the rule catches, the form opens with that class filled in. If the rule has an analytic plan, the plan still sets its own classes.\r\nThe bank rules list now shows each rule’s class under its account.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.125/SWITQBCompanion_WindowsApp_2.0.0-beta.125.zip",
-  "sha256": "a59901b8f88442b9217a9bee710b0260ea66bc02d2d18b2f5303899581227717",
-  "size": 1797583,
-  "sig": "IFMeSZ0n1Id_I3BPAFofGemxwLXPzCCvxMo7YfhVqsVfu61RWDmLeTLvyb35uD8TLhbpsBYe9cS7GgQ6PeT9Aw"
+  "notes": "SWIT QB Companion 2.0.0-beta.126\r\n\r\nNew setting: DirectPaymentReferenceRequired (Settings → Paying requisitions). It starts as Yes, so nothing changes until an Admin sets it to No.\r\nWith it set to No, the cheque no. / transfer reference on Record direct payment can be left empty for any payment method, not only cash. The voucher number (PV-…) is then used as the reference.\r\nA reference you type is still used.\r\nWhile the reference is required, the error message now says that an Admin can make it optional.\r\n\r\nThis applies only to direct payments. Recording the payment on an approved requisition still needs a reference unless it’s cash.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.126/SWITQBCompanion_WindowsApp_2.0.0-beta.126.zip",
+  "sha256": "d233fecd8793fe900cfc6d85a0d711bc09dcf3adc224ec7969cf922c9d9c9df5",
+  "size": 1798720,
+  "sig": "vhK715QuucHg0BILE2d1RtgIdQlfdBCmI5xPK2mtXXrerV8cyhgh1cPu5PwjNoxrcNHaRHOt2KEMQwv5yN8iBw"
 }
