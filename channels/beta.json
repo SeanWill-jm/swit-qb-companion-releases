@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.118",
+  "version": "2.0.0-beta.122",
   "channel": "beta",
-  "date": "2026-11-17",
-  "notes": "SWIT QB Companion 2.0.0-beta.118\r\n\r\nNew page, Administration → WhatsApp (Admin only), with three ways to send a PDF:\r\nChat link (the default, as before): the PDF downloads, WhatsApp opens with the message, and you attach the PDF yourself.\r\nShare menu: the Windows or phone share menu passes WhatsApp the PDF and the message together; you pick the contact and press send. WhatsApp allows this.\r\nLinked WhatsApp number: a number linked to the app (like WhatsApp Web) sends the PDF and message straight to the customer’s number. Send receipts gets a WhatsApp the ticked button that sends them one by one and marks each as sent.\r\nSetting up the linked number:\r\nClick Install the WhatsApp link. It downloads the library into the data folder in a minute or two (the server needs internet access).\r\nEnter the number to link, then click Get the code.\r\nOn that phone, open WhatsApp → Settings → Linked devices → Link a device → Link with phone number instead, and type the 8-character code.\r\nUse Send test to check it works. Unlink this number is on the same page.\r\nSafeguards for the linked number:\r\nMessages go 4–7 seconds apart, at a person’s pace.\r\nThere’s a daily limit, set by the new WhatsAppDailyLimit setting (default 100).\r\nOnly Admin, Accounts, Finance Manager and Cashier can send, and only PDFs made by the app.\r\nEvery send is recorded in the audit log.\r\nNew settings: WhatsAppMode and WhatsAppDailyLimit.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.118/SWITQBCompanion_WindowsApp_2.0.0-beta.118.zip",
-  "sha256": "36761f5ad3fda021d5d19205a5222f9056d382560a45e8e6e9533ebddd6df9f5",
-  "size": 1778481,
-  "sig": "av5c0GG0gS1FLqC5KDkHgt9b5pC5VOZwH8w67HT8C02KtTtmoMi6Y3fYVp4qAq8MvInIFKvHNgRkVjrbMLieCg"
+  "date": "2026-11-18",
+  "notes": "SWIT QB Companion 2.0.0-beta.122\r\n\r\nNew: the Reconcile helper reads Scotiabank’s ScotiaConnect Excel download, the Previous Day Activity Report (DepAcctPreviousDayActivity.xls). No Excel is needed on the server, and a copy saved as .xml works too.\r\nWhat it reads:\r\nthe account number, currency and report period (month first, as ScotiaConnect prints dates);\r\neach line’s date, Ref# (JMTROT…, JMUBOB…), description with its transaction type on one line, debit or credit, and running balance.\r\nChecks: the running balance on every line, and the debits and credits against the Total Amount and Total Item(s) at the bottom of the report.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/V2.0.0-beta.122/SWITQBCompanion_WindowsApp_2.0.0-beta.122.zip",
+  "sha256": "87e48096315cb544488a2e0dd9c6922d641073708bcb4cc0e58137209a1d5ba4",
+  "size": 1792772,
+  "sig": "7OHqgTLq4EasV7Q-MDRF0SajXlSMTrtXT2OGVmWMv_9ZRL-bhO1kC0rYM7xn91FXOXxN3zf71z_lPKLhtKX0Bg"
 }
