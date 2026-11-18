@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.124",
+  "version": "2.0.0-beta.125",
   "channel": "beta",
   "date": "2026-11-18",
-  "notes": "SWIT QB Companion 2.0.0-beta.124\r\n\r\nBank charges, GCT, interest and withholding tax: a journal entry made from a statement line already fills in the account you chose last time. With classes switched on, it now fills in the class you chose last time too.\r\nA bank rule’s own account and class still come first. The bank line gets no class, and a class made inactive in QuickBooks is not filled in.\r\nThis also applies to A journal entry for each… in the Reconcile help",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.124/SWITQBCompanion_WindowsApp_2.0.0-beta.124.zip",
-  "sha256": "a49c2e700fe85c9e905c6237e3644fe85986bcf5c1a89fc08a19e3e6b89c3698",
-  "size": 1796283,
-  "sig": "IxQdXOzvMFnzzrIphYJ_x8JNALHfST1e2cJXaNEcYTLKqwrAiPGQZglVAmAIsNmMjOVsAxF0o5ea97rDKYUMAg"
+  "notes": "SWIT QB Companion 2.0.0-beta.125\r\n\r\nFix – journal entries: with ClassRequired on, a journal entry asked for a class on every line, including the bank line. Now a class is only needed on income and expense lines, such as bank charges and interest. The bank line and other balance sheet lines (GCT, withholding tax, liabilities) can be left without one.\r\nBank rules: a Class for a direct payment. A rule that records a line as a Direct payment now has a Class box under its GL account, as journal entry and sales receipt rules already had. When you use Record as → Direct payment on a line the rule catches, the form opens with that class filled in. If the rule has an analytic plan, the plan still sets its own classes.\r\nThe bank rules list now shows each rule’s class under its account.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.125/SWITQBCompanion_WindowsApp_2.0.0-beta.125.zip",
+  "sha256": "a59901b8f88442b9217a9bee710b0260ea66bc02d2d18b2f5303899581227717",
+  "size": 1797583,
+  "sig": "IFMeSZ0n1Id_I3BPAFofGemxwLXPzCCvxMo7YfhVqsVfu61RWDmLeTLvyb35uD8TLhbpsBYe9cS7GgQ6PeT9Aw"
 }
