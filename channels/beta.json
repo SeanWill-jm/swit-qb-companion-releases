@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.129",
+  "version": "2.0.0-beta.130",
   "channel": "beta",
   "date": "2026-11-22",
-  "notes": "SWIT QB Companion 2.0.0-beta.129\r\n\r\nRecord direct payment: the GL account list on the lines now includes the bank accounts. For example, a repayment paid from Sagicor Admin 5736 into the KI Children's Fund account.\r\nThe bank account the payment is made from can't also be a line, because money can't go out of and into the same account.\r\nBank rules that record a line as a direct payment can name a bank account too, though not the bank the rule is for.\r\nIn QuickBooks it is a cheque from the bank paid from, with an expense line on the other bank account.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.129/SWITQBCompanion_WindowsApp_2.0.0-beta.129.zip",
-  "sha256": "af54b11c3dde2c1529e6e540cdf285a8eec9b934dfd2f34d8d9dbeac956144f7",
-  "size": 1801850,
-  "sig": "RoXGK3Kmd5rYGXfpPmrS70v_BX2I6SfF_eBnA_y31NPK8K8D0Yb_5eIPMOl_b8cFTUBP76esxpoIg-wPiVKJAw"
+  "notes": "SWIT QB Companion 2.0.0-beta.130\r\n\r\nFix: the Report category pickers showed the list as it was when you signed in. A category added later was missing until you signed in again or reloaded. That includes ones added under Report categories, in the Treasurer's report setup, on another computer or by another user.\r\nNow each picker reads the current list when the form opens. New categories show up, and ones made inactive drop off. A form that already has a category chosen keeps it.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.130/SWITQBCompanion_WindowsApp_2.0.0-beta.130.zip",
+  "sha256": "0d31557f5029c01de2ea158a22f5dde0d51df7252b238f2fa55f57a284fbf0e8",
+  "size": 1802786,
+  "sig": "FvwGZl7bhnTRuHDfapYRCXuRtfBPDXYKSGXqTkCyow6EPG-LKKK30eiiNUjKqjIH2qyW-btf8Z9e_AALgNacBw"
 }
