@@ -1,12 +1,12 @@
 {
   "v": 1,
   "product": "SWIT QB Companion",
-  "version": "2.0.0-beta.130",
+  "version": "2.0.0-beta.132",
   "channel": "beta",
-  "date": "2026-11-22",
-  "notes": "SWIT QB Companion 2.0.0-beta.130\r\n\r\nFix: the Report category pickers showed the list as it was when you signed in. A category added later was missing until you signed in again or reloaded. That includes ones added under Report categories, in the Treasurer's report setup, on another computer or by another user.\r\nNow each picker reads the current list when the form opens. New categories show up, and ones made inactive drop off. A form that already has a category chosen keeps it.",
-  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.130/SWITQBCompanion_WindowsApp_2.0.0-beta.130.zip",
-  "sha256": "0d31557f5029c01de2ea158a22f5dde0d51df7252b238f2fa55f57a284fbf0e8",
-  "size": 1802786,
-  "sig": "FvwGZl7bhnTRuHDfapYRCXuRtfBPDXYKSGXqTkCyow6EPG-LKKK30eiiNUjKqjIH2qyW-btf8Z9e_AALgNacBw"
+  "date": "2026-11-24",
+  "notes": "SWIT QB Companion 2.0.0-beta.132\r\n\r\nCustomers → + New customer: adds a customer to QuickBooks straight away, with the name, company, e-mail and phone. It then opens the customer's page so you can fill in the mobile, bank details and customer type.\r\nEnter sales receipt: + Add new customer is at the top of the customer list, as on Record payment. The new customer is chosen on the sale.\r\nBoth are for Accounts, the Finance Manager and Admin, and need sending to QuickBooks to be on.\r\nReconcile helper, the list of comparisons: filter by bank account (All, or one) and by From / To dates.\r\nThe dates show the comparisons whose statement period falls within them.\r\nThe page says how many are shown, and Show all clears the filter.\r\nArchived comparisons still only appear with Show archived ticked.",
+  "url": "https://github.com/SeanWill-jm/swit-qb-companion-releases/releases/download/v2.0.0-beta.132/SWITQBCompanion_WindowsApp_2.0.0-beta.132.zip",
+  "sha256": "b72eb6899ea565500ad85fa956dde356a72b722574310bdec362e28b0d8b873d",
+  "size": 1805059,
+  "sig": "jd8xR_sc9ujXRp78rJ06r1YavgaO4T8RnXzMWkLusPmfhaQOeYAZk4aVaQqS_POaAY65Nla2ZVKUVwY4mi8KDg"
 }
